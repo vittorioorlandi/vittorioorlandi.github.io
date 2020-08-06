@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>and Alexander Volfovsky | Vittorio Orlandi</title>
+    <link>https://vittorioorlandi.github.io/author/and-alexander-volfovsky/</link>
+      <atom:link href="https://vittorioorlandi.github.io/author/and-alexander-volfovsky/index.xml" rel="self" type="application/rss+xml" />
+    <description>and Alexander Volfovsky</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 26 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://vittorioorlandi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>and Alexander Volfovsky</title>
+      <link>https://vittorioorlandi.github.io/author/and-alexander-volfovsky/</link>
+    </image>
+    
+    <item>
+      <title>Adaptive Hyper-box Matching for Interpretable Individualized Treatment Effect Estimation</title>
+      <link>https://vittorioorlandi.github.io/publication/adaptive-hyper-box-matching-for-interpretable-individualized-treatment-effect-estimation/</link>
+      <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://vittorioorlandi.github.io/publication/adaptive-hyper-box-matching-for-interpretable-individualized-treatment-effect-estimation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Additive Regression Trees With Density Regression for Quantile Treatment Effect Estimation</title>
+      <link>https://vittorioorlandi.github.io/publication/bayesian-additive-regression-trees-with-density-regression-for-quantile-treatment-effect-estimation/</link>
+      <pubDate>Wed, 05 Aug 2020 19:13:34 -0400</pubDate>
+      <guid>https://vittorioorlandi.github.io/publication/bayesian-additive-regression-trees-with-density-regression-for-quantile-treatment-effect-estimation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Almost Matching Exactly for Treatment Effect Estimation Under Network Interference</title>
+      <link>https://vittorioorlandi.github.io/publication/almost-matching-exactly-for-treatment-effect-estimation-under-network-interference/</link>
+      <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://vittorioorlandi.github.io/publication/almost-matching-exactly-for-treatment-effect-estimation-under-network-interference/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

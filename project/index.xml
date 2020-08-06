@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Vittorio Orlandi</title>
+    <link>https://vittorioorlandi.github.io/project/</link>
+      <atom:link href="https://vittorioorlandi.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 06 Aug 2020 10:46:18 -0400</lastBuildDate>
+    <image>
+      <url>https://vittorioorlandi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>https://vittorioorlandi.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Generalized Bayesian Conformal Inference</title>
+      <link>https://vittorioorlandi.github.io/project/calibrotion/</link>
+      <pubDate>Thu, 06 Aug 2020 10:46:18 -0400</pubDate>
+      <guid>https://vittorioorlandi.github.io/project/calibrotion/</guid>
+      <description>&lt;p&gt;In practice, prediction intervals are oftentimes poorly calibrated with coverage levels far from the nominal values. This might be due to overshrinkage or prior misspecification. Various approaches have been taken to remedy this; one that has enjoyed recent success is conformal quantile regression (CQR). CQR uses quantile estimators on a training set to learn a “naive” interval and then adjusts the interval based off its coverage on a separate, calibration set. The resulting intervals are guaranteed finite sample coverage. Unfortunately, the underlying cause of the poor coverage, like an overly small variance estimate, is not remedied by doing so. We propose a Generalized Bayesian procedure for learning a calibrated posterior distribution that minimizes a discrepancy from an initial posterior subject to a conformal constraint guaranteeing validity of prediction intervals. To our knowledge, this is the first procedure to use conformal adjustments to predictive intervals to impact parameter inference.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interpretable Almost Matching Exactly</title>
+      <link>https://vittorioorlandi.github.io/project/ame/</link>
+      <pubDate>Thu, 06 Aug 2020 10:46:18 -0400</pubDate>
+      <guid>https://vittorioorlandi.github.io/project/ame/</guid>
+      <description>&lt;p&gt;In observational studies, confounding biases estimation of treatment effects. To remedy this, similar units can be matched together, with each matched group emulating a randomized experiment. Treatment effects can then be estimated by aggregating across matched groups. There are many ways to match units; I focus on interpretable methods, which are crucial in high-stakes decision contexts. Such methods allow a practitioner to go back to the raw data and determine precisely why units were matched together and therefore why the treatment effect estimate is what it is. I’ve worked on scalable matching methods for categorical data that match units exactly on as many covariates as possible, prioritizing matches on covariates learned to be more important. In the context of continuous data, this translates to learning regions of the space where the treatment effect is roughly constant and units are therefore “close enough” to be accurately matched. I’ve also applied this work in non-standard contexts, such as when units experience network interference. Currently, I’m working on how best to generate variance estimates for resulting treatment effects. For more information, see my work with the 
+&lt;a href=&#34;https://almostmatchingexactly.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Almost Matching Exactly Lab&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Latent Variable BART</title>
+      <link>https://vittorioorlandi.github.io/project/bart/</link>
+      <pubDate>Thu, 06 Aug 2020 10:46:18 -0400</pubDate>
+      <guid>https://vittorioorlandi.github.io/project/bart/</guid>
+      <description>&lt;p&gt;Bayesian Additive Regression Trees, or BART, is a Bayesian nonparametric regression tool that fits data via a forest of decision trees, each of which is constrained not to dominate the overall fit. In this sense, it is similar to boosting, though it has the added advantage of allowing for posterior inference on any quantities of interest. In the decade since its conception, BART has established itself as a cutting-edge regression tool capable of of state of the art performance on a wide variety of complex regression problems. Nevertheless, there are many types of data and models to which BART cannot yet appropriately be applied — notably those involving random effects, or latent variables in general. While it is easy to use BART and a random effect term in modeling data, it is not so simple to include the random effect within BART, given the difficulty of having a decision tree properly split on an unknown, latent variable. I’ve developed a method of doing this in the context of latent-variable density regression allowing BART’s inherent flexibility to be applied to accurate estimation of complicated conditional densities. Next, I hope to extend this methodological advancement to handle random effects models, models in which BART simultaneously performs community detection and regression (with community-specific parameters), and others.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pediatric Cardiac Re-Transplantation</title>
+      <link>https://vittorioorlandi.github.io/project/cardiac/</link>
+      <pubDate>Thu, 06 Aug 2020 10:46:18 -0400</pubDate>
+      <guid>https://vittorioorlandi.github.io/project/cardiac/</guid>
+      <description>&lt;p&gt;Even in cases without acute rejection, the risk associated with a second heart transplant for pediatric patients appears to be substantially greater than that associated with an initial transplant — even when controlling for the fact that multiple transplant patients tend to be sicker. I’m analyzing transplant data using a version of BART suitable for survival analysis, which is both more flexible than parametric models and avoids making standard assumptions about survival curves like that of proportional hazards. The use of $t$ and $\chi^2$ tests, Kaplan Meier estimators, and Cox models is pervasive in medical survival analysis; I hope to establish BART as a viable alternative and one that is better suited to identifying interesting nonlinear, interacting, or subgroup-specific effects.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sparse Explanations for Binary Classification</title>
+      <link>https://vittorioorlandi.github.io/project/sep/</link>
+      <pubDate>Thu, 06 Aug 2020 10:46:18 -0400</pubDate>
+      <guid>https://vittorioorlandi.github.io/project/sep/</guid>
+      <description>&lt;p&gt;In high dimensional contexts, a sparsity-inducing model, such as LASSO, is useful in eliminating irrelevant predictors from the fit. However, this global approach to sparsity ignores the fact that some predictors might be irrelevant in explaining the outcomes of some units, but not others. Consider applying for a loan. One individual might be rejected because she has defaulted on a loan within the past 5 years. Other features (credit history, race, income, etc.) may not be irrelevant — but they are insufficient in overwhelming the effect of loan default on being denied a loan. These sorts of sparse explanations — where there are few features that determine a unit’s outcome — are interpretable and therefore of great value in many applied contexts. To this end, I’m working on developing a method for fitting linear, binary classification models that makes a unit’s resulting explanation a function of few predictors, while still maintaining good classification accuracy. I’m studying both a MIP formulation of this problem and a gradient-based optimization approximation as a faster alternative.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
