@@ -5,7 +5,7 @@
     <link>https://vittorioorlandi.github.io/</link>
       <atom:link href="https://vittorioorlandi.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Vittorio Orlandi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 26 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://vittorioorlandi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Vittorio Orlandi</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Adaptive Hyper-box Matching for Interpretable Individualized Treatment Effect Estimation</title>
-      <link>https://vittorioorlandi.github.io/publication/adaptive-hyper-box-matching-for-interpretable-individualized-treatment-effect-estimation/</link>
-      <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://vittorioorlandi.github.io/publication/adaptive-hyper-box-matching-for-interpretable-individualized-treatment-effect-estimation/</guid>
+      <title>Almost Matching Exactly for Treatment Effect Estimation Under Network Interference</title>
+      <link>https://vittorioorlandi.github.io/publication/almost-matching-exactly-for-treatment-effect-estimation-under-network-interference/</link>
+      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://vittorioorlandi.github.io/publication/almost-matching-exactly-for-treatment-effect-estimation-under-network-interference/</guid>
       <description></description>
     </item>
     
@@ -25,7 +25,7 @@
       <link>https://vittorioorlandi.github.io/project/calibrotion/</link>
       <pubDate>Thu, 06 Aug 2020 10:46:18 -0400</pubDate>
       <guid>https://vittorioorlandi.github.io/project/calibrotion/</guid>
-      <description>&lt;p&gt;In practice, prediction intervals are oftentimes poorly calibrated with coverage levels far from the nominal values. This might be due to overshrinkage or prior misspecification. Various approaches have been taken to remedy this; one that has enjoyed recent success is conformal quantile regression (CQR). CQR uses quantile estimators on a training set to learn a “naive” interval and then adjusts the interval based off its coverage on a separate, calibration set. The resulting intervals are guaranteed finite sample coverage. Unfortunately, the underlying cause of the poor coverage, like an overly small variance estimate, is not remedied by doing so. We propose a Generalized Bayesian procedure for learning a calibrated posterior distribution that minimizes a discrepancy from an initial posterior subject to a conformal constraint guaranteeing validity of prediction intervals. To our knowledge, this is the first procedure to use conformal adjustments to predictive intervals to impact parameter inference.&lt;/p&gt;
+      <description>&lt;p&gt;In practice, prediction intervals are oftentimes poorly calibrated with coverage levels far from the nominal values. This might be due to overshrinkage or prior misspecification, for example. Various approaches have been taken to remedy this; one that has enjoyed recent success is conformal quantile regression (CQR). CQR uses quantile estimators on a training set to learn a “naive” interval and then adjusts the interval based off its coverage on a separate, calibration set. The resulting intervals are guaranteed finite sample coverage. Unfortunately, the underlying cause of the poor coverage, like an overly small variance estimate, is not remedied by doing so. We propose a Generalized Bayesian procedure for learning a calibrated posterior distribution that minimizes a discrepancy from an initial posterior subject to a conformal constraint guaranteeing validity of prediction intervals. To our knowledge, this is the first procedure to use conformal adjustments to predictive intervals to impact parameter inference.&lt;/p&gt;
 </description>
     </item>
     
@@ -34,7 +34,8 @@
       <link>https://vittorioorlandi.github.io/project/ame/</link>
       <pubDate>Thu, 06 Aug 2020 10:46:18 -0400</pubDate>
       <guid>https://vittorioorlandi.github.io/project/ame/</guid>
-      <description>&lt;p&gt;In observational studies, confounding biases estimation of treatment effects. To remedy this, similar units can be matched together, with each matched group emulating a randomized experiment. Treatment effects can then be estimated by aggregating across matched groups. There are many ways to match units; I focus on interpretable methods, which are crucial in high-stakes decision contexts. Such methods allow a practitioner to go back to the raw data and determine precisely why units were matched together and therefore why the treatment effect estimate is what it is. I’ve worked on scalable matching methods for categorical data that match units exactly on as many covariates as possible, prioritizing matches on covariates learned to be more important. In the context of continuous data, this translates to learning regions of the space where the treatment effect is roughly constant and units are therefore “close enough” to be accurately matched. I’ve also applied this work in non-standard contexts, such as when units experience network interference. Currently, I’m working on how best to generate variance estimates for resulting treatment effects. For more information, see my work with the 
+      <description>&lt;p&gt;In observational studies, confounding biases estimation of treatment effects. To remedy this, similar units can be matched together, with each matched group emulating a randomized experiment. Treatment effects can then be estimated by aggregating across matched groups. There are many ways to match units; I focus on interpretable methods, which are crucial in high-stakes decision contexts. Such methods allow a practitioner to go back to the raw data and determine precisely why units were matched together and therefore why the treatment effect estimate is what it is. I’ve worked on scalable matching methods for categorical data that match units exactly on as many covariates as possible, prioritizing matches on covariates learned to be more important. In the context of continuous data, this translates to learning regions of the space where the treatment effect is roughly constant and units are therefore “close enough” to be accurately matched. I’ve also applied this work in non-standard contexts, such as when units experience network interference. Lastly, I&amp;rsquo;ve created an 
+&lt;a href=&#34;https://vittorioorlandi.github.io/publication/flame/&#34;&gt;R package&lt;/a&gt; implementing some of these methods to make them accesible to practitioners; more are forthcoming. Currently, I’m working on how best to generate variance estimates for resulting treatment effects. For more information, see my work with the 
 &lt;a href=&#34;https://almostmatchingexactly.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Almost Matching Exactly Lab&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
@@ -44,7 +45,7 @@
       <link>https://vittorioorlandi.github.io/project/bart/</link>
       <pubDate>Thu, 06 Aug 2020 10:46:18 -0400</pubDate>
       <guid>https://vittorioorlandi.github.io/project/bart/</guid>
-      <description>&lt;p&gt;Bayesian Additive Regression Trees, or BART, is a Bayesian nonparametric regression tool that fits data via a forest of decision trees, each of which is constrained not to dominate the overall fit. In this sense, it is similar to boosting, though it has the added advantage of allowing for posterior inference on any quantities of interest. In the decade since its conception, BART has established itself as a cutting-edge regression tool capable of of state of the art performance on a wide variety of complex regression problems. Nevertheless, there are many types of data and models to which BART cannot yet appropriately be applied — notably those involving random effects, or latent variables in general. While it is easy to use BART and a random effect term in modeling data, it is not so simple to include the random effect within BART, given the difficulty of having a decision tree properly split on an unknown, latent variable. I’ve developed a method of doing this in the context of latent-variable density regression allowing BART’s inherent flexibility to be applied to accurate estimation of complicated conditional densities. Next, I hope to extend this methodological advancement to handle random effects models, models in which BART simultaneously performs community detection and regression (with community-specific parameters), and others.&lt;/p&gt;
+      <description>&lt;p&gt;Bayesian Additive Regression Trees, or BART, is a Bayesian nonparametric regression tool that fits data via a forest of decision trees, each of which is constrained not to dominate the overall fit. In this sense, it is similar to boosting, though it has the added advantage of allowing for posterior inference on any quantities of interest. In the decade since its conception, BART has established itself as a cutting-edge regression tool capable of state of the art performance on a wide variety of complex regression problems. Nevertheless, there are many types of data and models to which BART cannot yet appropriately be applied — notably those involving random effects, or latent variables in general. While it is easy to use BART &lt;em&gt;and&lt;/em&gt; a random effect term in modeling data, it is not so simple to include the random effect &lt;em&gt;within&lt;/em&gt; BART, given the difficulty of having a decision tree properly split on an unknown, latent variable. I’ve developed a method of doing this in the context of latent-variable density regression allowing BART’s inherent flexibility to be applied to accurate estimation of complicated conditional densities. Next, I hope to extend this methodological advancement to handle random effects models, models in which BART simultaneously performs community detection and regression (with community-specific parameters), and others.&lt;/p&gt;
 </description>
     </item>
     
@@ -62,23 +63,31 @@
       <link>https://vittorioorlandi.github.io/project/sep/</link>
       <pubDate>Thu, 06 Aug 2020 10:46:18 -0400</pubDate>
       <guid>https://vittorioorlandi.github.io/project/sep/</guid>
-      <description>&lt;p&gt;In high dimensional contexts, a sparsity-inducing model, such as LASSO, is useful in eliminating irrelevant predictors from the fit. However, this global approach to sparsity ignores the fact that some predictors might be irrelevant in explaining the outcomes of some units, but not others. Consider applying for a loan. One individual might be rejected because she has defaulted on a loan within the past 5 years. Other features (credit history, race, income, etc.) may not be irrelevant — but they are insufficient in overwhelming the effect of loan default on being denied a loan. These sorts of sparse explanations — where there are few features that determine a unit’s outcome — are interpretable and therefore of great value in many applied contexts. To this end, I’m working on developing a method for fitting linear, binary classification models that makes a unit’s resulting explanation a function of few predictors, while still maintaining good classification accuracy. I’m studying both a MIP formulation of this problem and a gradient-based optimization approximation as a faster alternative.&lt;/p&gt;
+      <description>&lt;p&gt;In high dimensional contexts, a sparsity-inducing model, such as LASSO, is useful in eliminating irrelevant predictors from the fit. However, this global approach to sparsity ignores the fact that some predictors might be irrelevant in explaining the outcomes of some units, but not others. Consider applying for a loan. An individual might be rejected because she has defaulted on a loan within the past 5 years. Other features (credit history, race, income, etc.) may not be irrelevant — but they are insufficient in overwhelming the effect of default on being denied a loan. These sorts of sparse explanations — where there are few features that determine a unit’s outcome — are interpretable and therefore of great value in many applied contexts. To this end, I’m working on developing a method for fitting linear, binary classification models that makes a unit’s resulting explanation a function of few predictors, while still maintaining good classification accuracy. I’m studying both a MIP formulation of this problem and a gradient-based optimization approximation as a faster alternative.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Adaptive Hyper-box Matching for Interpretable Individualized Treatment Effect Estimation</title>
+      <link>https://vittorioorlandi.github.io/publication/adaptive-hyper-box-matching-for-interpretable-individualized-treatment-effect-estimation/</link>
+      <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://vittorioorlandi.github.io/publication/adaptive-hyper-box-matching-for-interpretable-individualized-treatment-effect-estimation/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Bayesian Additive Regression Trees With Density Regression for Quantile Treatment Effect Estimation</title>
       <link>https://vittorioorlandi.github.io/publication/bayesian-additive-regression-trees-with-density-regression-for-quantile-treatment-effect-estimation/</link>
-      <pubDate>Wed, 05 Aug 2020 19:13:34 -0400</pubDate>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
       <guid>https://vittorioorlandi.github.io/publication/bayesian-additive-regression-trees-with-density-regression-for-quantile-treatment-effect-estimation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Almost Matching Exactly for Treatment Effect Estimation Under Network Interference</title>
-      <link>https://vittorioorlandi.github.io/publication/almost-matching-exactly-for-treatment-effect-estimation-under-network-interference/</link>
-      <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://vittorioorlandi.github.io/publication/almost-matching-exactly-for-treatment-effect-estimation-under-network-interference/</guid>
+      <title>FLAME: Interpretable Matching for Causal Inference</title>
+      <link>https://vittorioorlandi.github.io/publication/flame/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://vittorioorlandi.github.io/publication/flame/</guid>
       <description></description>
     </item>
     
