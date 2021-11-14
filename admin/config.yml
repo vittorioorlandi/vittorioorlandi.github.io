@@ -62,6 +62,7 @@ collections:
             widget: list
             fields:
               - {label: Course, name: course, widget: string, required: true}
+            
               - {label: Institution, name: institution, widget: string, required: true}
               - {label: Year, name: year, widget: number, valueType: int, required: false}
       - {label: "Email (to use a Gravatar.com avatar)", name: "email", widget: "string", required: false}
