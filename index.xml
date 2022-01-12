@@ -133,7 +133,7 @@
     <item>
       <title>News</title>
       <link>https://vittorioorlandi.github.io/news/</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 -0600</pubDate>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 -0500</pubDate>
       <guid>https://vittorioorlandi.github.io/news/</guid>
       <description>
 
@@ -144,6 +144,7 @@
 
 
 
+&lt;p&gt;&lt;strong&gt;January 12, 2022&lt;/strong&gt; My software package &lt;code&gt;FLAME&lt;/code&gt; has just received an honorable mention for this year&amp;rsquo;s &lt;a href=&#34;https://community.amstat.org/jointscsg-section/awards/john-m-chambers&#34; target=&#34;_blank&#34;&gt;John M. Chambers Statistical Software Award&lt;/a&gt;. Thank you to the ASA Sections on Statistical Computing and Statistical Graphics for recommending my work!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;December 22, 2022&lt;/strong&gt; My paper &lt;em&gt;Density Regression with Bayesian Additive Regression Trees&lt;/em&gt; has just been posted to arXiv! It can be found &lt;a href=&#34;https://arxiv.org/abs/2112.12259&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;December 8, 2022&lt;/strong&gt; We just presented our demo at NeurIPS 2021! It provides a GUI for matching using algorithms in the AME framework. Check it out &lt;a href=&#34;https://almost-matching-exactly.github.io/ame-demo&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;August 15, 2021&lt;/strong&gt; Our paper studying the effects of ABO incompatibility on pediatric cardiac transplants has just been accepted for publication in the Annals of Thoracic Surgery.&lt;/p&gt;
