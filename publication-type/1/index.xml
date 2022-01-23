@@ -5,7 +5,7 @@
     <link>https://vittorioorlandi.github.io/publication-type/1/</link>
       <atom:link href="https://vittorioorlandi.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 09 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://vittorioorlandi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
@@ -13,7 +13,15 @@
     </image>
     
     <item>
-      <title>Outcomes of Cardiac Retransplantation in Pediatric Population in the US: Analysis of UNOS Data.</title>
+      <title>FLAME: Interpretable Matching for Causal Inference</title>
+      <link>https://vittorioorlandi.github.io/publication/flame_user/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://vittorioorlandi.github.io/publication/flame_user/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Outcomes of Cardiac Retransplantation in Pediatric Population in the US: Analysis of UNOS Data</title>
       <link>https://vittorioorlandi.github.io/publication/re-transplantation/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://vittorioorlandi.github.io/publication/re-transplantation/</guid>

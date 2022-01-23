@@ -5,7 +5,7 @@
     <link>https://vittorioorlandi.github.io/</link>
       <atom:link href="https://vittorioorlandi.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Vittorio Orlandi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 22 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://vittorioorlandi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Vittorio Orlandi</title>
@@ -13,7 +13,31 @@
     </image>
     
     <item>
-      <title>Outcomes of Cardiac Retransplantation in Pediatric Population in the US: Analysis of UNOS Data.</title>
+      <title>Density Regression with Bayesian Additive Regression Trees</title>
+      <link>https://vittorioorlandi.github.io/publication/dr-bart/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://vittorioorlandi.github.io/publication/dr-bart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FLAME: Interpretable Matching for Causal Inference</title>
+      <link>https://vittorioorlandi.github.io/publication/flame_user/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://vittorioorlandi.github.io/publication/flame_user/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Post-operative Outcomes in Infants Undergoing ABO Incompatible Heart Transplantation in the US</title>
+      <link>https://vittorioorlandi.github.io/publication/retx_paper/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://vittorioorlandi.github.io/publication/retx_paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Outcomes of Cardiac Retransplantation in Pediatric Population in the US: Analysis of UNOS Data</title>
       <link>https://vittorioorlandi.github.io/publication/re-transplantation/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://vittorioorlandi.github.io/publication/re-transplantation/</guid>
