@@ -1,64 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vittorio Orlandi* | Vittorio Orlandi</title>
+    <title>Vittorio Orlandi</title>
     <link>https://vittorioorlandi.github.io/author/vittorio-orlandi/</link>
       <atom:link href="https://vittorioorlandi.github.io/author/vittorio-orlandi/index.xml" rel="self" type="application/rss+xml" />
-    <description>Vittorio Orlandi*</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 22 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <description>Vittorio Orlandi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>https://vittorioorlandi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Vittorio Orlandi*</title>
+      <title>Vittorio Orlandi</title>
       <link>https://vittorioorlandi.github.io/author/vittorio-orlandi/</link>
     </image>
-    
-    <item>
-      <title>Density Regression with Bayesian Additive Regression Trees</title>
-      <link>https://vittorioorlandi.github.io/publication/dr-bart/</link>
-      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://vittorioorlandi.github.io/publication/dr-bart/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FLAME: Interpretable Matching for Causal Inference</title>
-      <link>https://vittorioorlandi.github.io/publication/flame_user/</link>
-      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://vittorioorlandi.github.io/publication/flame_user/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Almost Matching Exactly for Treatment Effect Estimation Under Network Interference</title>
-      <link>https://vittorioorlandi.github.io/publication/almost-matching-exactly-for-treatment-effect-estimation-under-network-interference/</link>
-      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://vittorioorlandi.github.io/publication/almost-matching-exactly-for-treatment-effect-estimation-under-network-interference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Adaptive Hyper-box Matching for Interpretable Individualized Treatment Effect Estimation</title>
-      <link>https://vittorioorlandi.github.io/publication/adaptive-hyper-box-matching-for-interpretable-individualized-treatment-effect-estimation/</link>
-      <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://vittorioorlandi.github.io/publication/adaptive-hyper-box-matching-for-interpretable-individualized-treatment-effect-estimation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bayesian Additive Regression Trees With Density Regression for Quantile Treatment Effect Estimation</title>
-      <link>https://vittorioorlandi.github.io/publication/bayesian-additive-regression-trees-with-density-regression-for-quantile-treatment-effect-estimation/</link>
-      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://vittorioorlandi.github.io/publication/bayesian-additive-regression-trees-with-density-regression-for-quantile-treatment-effect-estimation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FLAME: Interpretable Matching for Causal Inference</title>
-      <link>https://vittorioorlandi.github.io/publication/flame/</link>
-      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://vittorioorlandi.github.io/publication/flame/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
